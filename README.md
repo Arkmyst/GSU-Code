@@ -7,11 +7,11 @@ This repository functions as a storage hub for the code I write during my comple
 <div align="center" style="inline-block"> 
 <br/>
   
-| Semester | Course |
-|:--------:|:------:|
-|Fall 2023| [CSC1301](CSC1301) |
-|Summer 2023| [CSC1302](CSC1302) |
-|Spring 2024| [CSC3210](CSC3210) |
+| SEMESTER | COURSE |
+| :------: | :----: |
+| `Fall 2023` | [CSC1301](CSC1301) |
+| `Summer 2023` | [CSC1302](CSC1302) |
+| `Spring 2024` | [CSC3210](CSC3210) |
 
 </div>
 
