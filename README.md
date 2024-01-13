@@ -18,7 +18,7 @@ This repository functions as a storage hub for the code I write during my comple
 
 ## Repository Structure
 
-```oy
+```py
 gsu-code
 ┗━ Course # Various GSU courses
    ┣━ Homeworks
