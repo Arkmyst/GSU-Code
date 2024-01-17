@@ -1,7 +1,7 @@
 '''
 Program: CS 1301 Lab 07
 
-Author: Asrar Syed
+Author: Arkmyst
 
 Description: This program will ask the user for a value
 and tell the user whether the value is even or odd.
