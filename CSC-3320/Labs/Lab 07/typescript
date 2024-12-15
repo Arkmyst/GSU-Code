@@ -1,0 +1,81 @@
+Script started on Wed 16 Oct 2024 11:18:58 PM EDT
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320/labs/lab7[?1034h[asyed23@gsuad.gsu.edu@snowball lab7]$ cat lab7.c
+/*
+  Author: Asrar Syed
+  Program: Create selection_sort method and sort an array and print it out
+*/
+
+#include <stdio.h>
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void selection_sort(int array[], int n) {
+    if (n <= 1)
+        return;
+
+    int maxVal = 0;
+    for (int i = 1; i < n; i++) {
+        if (array[i] > array[maxVal]) {
+            maxVal = i;
+        }
+    }
+
+    swap(&array[maxVal], &array[n-1]);
+
+    printf("After the next call: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+    selection_sort(array, n - 1);
+}
+
+int main() {
+    int n;
+
+    printf("How many integers: ");
+    scanf("%d", &n);
+
+    int array[n];
+    printf("\nEnter %d elements: ", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &array[i]);
+    }
+    
+    selection_sort(array, n);
+
+    printf("Sorted Array: ");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320/labs/lab7[asyed23@gsuad.gsu.edu@snowball lab7]$ gcc -std=c99 lab7.c -o lab7
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320/labs/lab7[asyed23@gsuad.gsu.edu@snowball lab7]$ 
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320/labs/lab7[asyed23@gsuad.gsu.edu@snowball lab7]$ /[K./lab7
+How many integers: 12
+
+Enter 12 elements: 10 3 34 21 13 10 13 9 20 39 45 68
+After the next call: 10 3 34 21 13 10 13 9 20 39 45 68 
+After the next call: 10 3 34 21 13 10 13 9 20 39 45 
+After the next call: 10 3 34 21 13 10 13 9 20 39 
+After the next call: 10 3 20 21 13 10 13 9 34 
+After the next call: 10 3 20 9 13 10 13 21 
+After the next call: 10 3 13 9 13 10 20 
+After the next call: 10 3 10 9 13 13 
+After the next call: 10 3 10 9 13 
+After the next call: 9 3 10 10 
+After the next call: 9 3 10 
+After the next call: 3 9 
+Sorted Array: 3 9 10 10 13 13 20 21 34 39 45 68 
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320/labs/lab7[asyed23@gsuad.gsu.edu@snowball lab7]$ exit
+exit
+
+Script done on Wed 16 Oct 2024 11:20:21 PM EDT

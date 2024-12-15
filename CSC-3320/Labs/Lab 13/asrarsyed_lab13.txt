@@ -1,0 +1,114 @@
+Script started on Fri 06 Dec 2024 11:40:21 PM EST
+[asyed23@gsuad.gsu.edu@snowball lab13]$ cat lab13.c
+/*
+  Author: Asrar Syed
+  Program: Practice File Management and using fork() system call in a C Program
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <stdbool.h>
+
+// Function to calculate the sum of even numbers
+void calculate_even_sum() {
+    int sum = 0;
+    for (int i = 2; i <= 1000; i += 2) {
+        sum += i;
+    }
+    printf("Child 1: Sum of even numbers between 1 and 1000 is %d\n", sum);
+    printf("DONE. MY PID IS %d. MY PARENT'S PID IS %d.\n\n", getpid(), getppid());
+    exit(0);
+}
+
+// Function to calculate the sum of odd numbers
+void calculate_odd_sum() {
+    int sum = 0;
+    for (int i = 1; i <= 1000; i += 2) {
+        sum += i;
+    }
+    printf("Child 2: Sum of odd numbers between 1 and 1000 is %d\n", sum);
+    printf("DONE. MY PID IS %d. MY PARENT'S PID IS %d.\n\n", getpid(), getppid());
+    exit(0);
+}
+
+// Function to find and display prime numbers
+void find_primes() {
+    printf("Child 3: Prime numbers between 1 and 1000 are:\n");
+    for (int num = 2; num <= 1000; ++num) {
+        bool is_prime = true;
+        for (int divisor = 2; divisor * divisor <= num; ++divisor) {
+            if (num % divisor == 0) {
+                is_prime = false;
+                break;
+            }
+        }
+        if (is_prime) {
+            printf("%d ", num);
+        }
+    }
+    printf("\n");
+    printf("DONE. MY PID IS %d. MY PARENT'S PID IS %d.\n\n", getpid(), getppid());
+    exit(0);
+}
+
+int main() {
+    pid_t pid1, pid2, pid3;
+
+    // Creating the first child process
+    pid1 = fork();
+    if (pid1 < 0) {
+        perror("Failed to fork first child");
+        exit(1);
+    } else if (pid1 == 0) {
+        calculate_even_sum();
+    }
+
+    // Creating the second child process
+    pid2 = fork();
+    if (pid2 < 0) {
+        perror("Failed to fork second child");
+        exit(1);
+    } else if (pid2 == 0) {
+        calculate_odd_sum();
+    }
+
+    // Creating the third child process
+    pid3 = fork();
+    if (pid3 < 0) {
+        perror("Failed to fork third child");
+        exit(1);
+    } else if (pid3 == 0) {
+        find_primes();
+    }
+
+    // Parent process waits for all children to finish
+    for (int i = 0; i < 3; i++) {
+        wait(NULL);
+    }
+
+    // Parent process termination message
+    printf("Parent: DONE. MY PID IS %d. MY PARENT'S PID IS %d.\n", getpid(), getppid());
+    return 0;
+}
+[asyed23@gsuad.gsu.edu@snowball lab13]$ gcc lab13.c -o lab13 -std=c99
+[asyed23@gsuad.gsu.edu@snowball lab13]$ ./lab13
+
+Child 1: Sum of even numbers between 1 and 1000 is 250500
+DONE. MY PID IS 27336. MY PARENT'S PID IS 27333.
+
+Child 3: Prime numbers between 1 and 1000 are:
+Child 2: Sum of odd numbers between 1 and 1000 is 250000
+DONE. MY PID IS 27337. MY PARENT'S PID IS 27333.
+
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 127 131 137 139 149 151 157 163 167 173 179 181 191 193 197 199 211 223 227 229 233 239 241 251 257 263 269 271 277 281 283 293 307 311 313 317 331 337 347 349 353 359 367 373 379 383 389 397 401 409 419 421 431 433 439 443 449 457 461 463 467 479 487 491 499 503 509 521 523 541 547 557 563 569 571 577 587 593 599 601 607 613 617 619 631 641 643 647 653 659 661 673 677 683 691 701 709 719 727 733 739 743 751 757 761 769 773 787 797 809 811 821 823 827 829 839 853 857 859 863 877 881 883 887 907 911 919 929 937 941 947 953 967 971 977 983 991 997 
+DONE. MY PID IS 27338. MY PARENT'S PID IS 27333.
+
+Parent: DONE. MY PID IS 27333. MY PARENT'S PID IS 27254.
+
+[asyed23@gsuad.gsu.edu@snowball lab13]$ exit
+exit
+
+Script done on Fri 06 Dec 2024 11:41:09 PM EST

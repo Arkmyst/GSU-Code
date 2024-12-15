@@ -1,0 +1,32 @@
+# Author: Asrar Syed
+# Course Section: CSC 2720-012
+
+
+(2) Explain the time complexity of your implementation to the lab instructor.
+
+    Overall Time Complexity: O(n+k) -> where n (the size of the array) and k is (the range of values) between the minimum and maximum values.
+    The algorithm takes O(n) to find the minimum and maximum values, O(n) to populate the count array and O(k) to reconstruct the sorted array.
+    This makes it efficient when k (the range of values) is not significantly larger than n (the size of the array).
+
+
+(3) Explain the space complexity of your implementation to the lab instructor.
+
+    Overall Space Complexity: O(n+k) -> The algorithm uses linear space for the array and additional space proportional to the range of values.
+    The algorithm takes O(n) space for the sorted output array, and O(k) space to account for the count array size.
+    This makes it space-efficient only when k (the range of values) is close to n (the size of the array).
+
+
+(4) Do you recommend using counting sort algorithm for the following arrays? Why?
+    Array 1: [527, 8763, 12, 45, 9076, 298, 7603, 432, 1, 30456]
+    Array 2: [10, 5, 7, 12, 8, 5, 14, 15, 6, 13]
+    Array 3: [2300, 2298, 2299, 2302, 2307, 2305, 2304, 2302, 2306, 2303]
+
+    Array 1: Not Recommended 
+        The range of values is large (30456 - 1 = 30455), while the number of elements is small (n = 10).
+        This makes space usage O(k) inefficient.
+    Array 2: Recommended 
+        The range of values is small (15 - 5 = 10), and it has a comparable number of elements (n = 10).
+        The counting sort algorithm makes sense here, as it is efficient O(n+k).
+    Array 3: Recommended
+        The range of values is small (2307 - 2298 = 10), and it has a comparable number of elements (n = 10).
+        The counting sort algorithm also makes sense here, as k is minimal compared to n.

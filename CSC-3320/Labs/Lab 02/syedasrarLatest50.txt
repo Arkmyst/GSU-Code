@@ -1,0 +1,50 @@
+  106  cat fruit.txt
+  107  ls
+  108  pwd
+  109  cp fruit.txt /home/asyed23/csc3320/lectures
+  110  cd ../..
+  111  ls
+  112  cd lectures
+  113  ls
+  114  cd /home/asyed23/csc3320/labs/lab2
+  115  ls
+  116  cd /home/asyed23/csc3320/lectures
+  117  ls
+  118  rm fruit.txt
+  119  ls
+  120  cd /home/asyed23/csc3320/labs/lab2
+  121  ls
+  122  cp fruit.txt /home/asyed23/csc3320/lectures
+  123  cd /home/asyed23/csc3320/lectures
+  124  ls
+  125  rm fruit.txt
+  126  cd /home/asyed23/csc3320/labs/lab2
+  127  ls
+  128  cp fruit.txt /home/asyed23/csc3320/lectures/myfruit.txt
+  129  cd /home/asyed23/csc3320/lectures
+  130  ls
+  131  ls -rD
+  132  pwd
+  133  cd /home/asyed23/csc3320/labs/lab2
+  134  clear
+  135  cp -r /home/asyed23/csc3320/lectures /home/asyed23/csc3320/labs/lab2
+  136  ls
+  137  cd lectures
+  138  ls
+  139  pwd
+  140  ls
+  141  Commands: 
+  142  pwd
+  143  ls
+  144  ls -lsf
+  145  ls -l
+  146  clear
+  147  chmod a+x
+  148  chmod a+x myfruit.txt
+  149  ls
+  150  ls -l
+  151  cd ..
+  152  rm -r /home/asyed23/csc3320/labs/lab2/lectures
+  153  ls
+  154  pwd
+  155  history | tail -n 50 > syedasrarLatest50.txt

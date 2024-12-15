@@ -1,0 +1,18 @@
+Author: Asrar Syed
+
+Output of the distances
+{
+    '0': 8,
+    '1': 9,
+    '2': 0,
+    '3': 4,
+    '4': 2,
+    '5': 9
+}
+
+The shortest distance from node '2' to node '0' is 8.
+The shortest distance from node '2' to node '1' is 9.
+The shortest distance from node '2' to node '2' (itself) is 0.
+The shortest distance from node '2' to node '3' is 4.
+The shortest distance from node '2' to node '4' is 2.
+The shortest distance from node '2' to node '5' is 9.

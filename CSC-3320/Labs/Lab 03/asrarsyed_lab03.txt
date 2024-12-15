@@ -1,0 +1,38 @@
+Script started on Wed 18 Sep 2024 04:08:31 PM EDT
+[asyed23@gsuad.gsu.edu@snowball lab3]$ cat lab3.c
+/*
+  Hello World Program
+*/
+
+
+#include <stdio.h>
+int main (int argc, char *argv[]) {
+printf("hello␣world.\n");
+return 0;
+}
+
+[asyed23@gsuad.gsu.edu@snowball lab3]$ gcc lab3.c -o lab3
+[asyed23@gsuad.gsu.edu@snowball lab3]$ ./lab3
+hello␣world.
+[asyed23@gsuad.gsu.edu@snowball lab3]$ cp lab3.c lab3_modified.c
+[asyed23@gsuad.gsu.edu@snowball lab3]$ vi lab3_modified.c
+[asyed23@gsuad.gsu.edu@snowball lab3]$ cat lab3_modified.c
+/*
+  Hello World Program
+*/
+
+
+#include <stdio.h>
+int main (int argc, char *argv[]) {
+printf("hello␣world.\n");
+printf("Asrar Syed is modifying the program");
+return 0;
+}
+
+[asyed23@gsuad.gsu.edu@snowball lab3]$ gcc lab3_modified.c -o lab3_modified
+[asyed23@gsuad.gsu.edu@snowball lab3]$ ./lab3_modified
+hello␣world.
+Asrar Syed is modifying the program[asyed23@gsuad.gsu.edu@snowball lab3]$ exit
+exit
+
+Script done on Wed 18 Sep 2024 04:11:23 PM EDT

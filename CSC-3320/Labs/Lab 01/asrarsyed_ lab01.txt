@@ -1,0 +1,95 @@
+Script started on Wed 04 Sep 2024 03:57:34 PM EDT
+]0;asyed23@gsuad.gsu.edu@snowball:~[?1034h[asyed23@gsuad.gsu.edu@snowball ~]$ mkdir csc3320
+]0;asyed23@gsuad.gsu.edu@snowball:~[asyed23@gsuad.gsu.edu@snowball ~]$ cd csc3320
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ pwd
+/home/asyed23/csc3320
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ ls
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ [K[asyed23@gsuad.gsu.edu@snowball csc3320]$ [K[asyed23@gsuad.gsu.edu@snowball csc3320]$ ls
+asyed_song.txt
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ cat asyed_song.txt
+Look, I was gonna go easy on you not to hurt your feelings
+But I'm only going to get this one chance (six minutes-, six minutes-)
+Something's wrong, I can feel it (six minutes, Slim Shady, you're on!)
+Just a feeling I've got, like something's about to happen, but I don't know what
+If that means what I think it means, we're in trouble, big trouble
+And if he is as bananas as you say, I'm not taking any chances
+You are just what the doc ordered
+
+I'm beginnin' to feel like a Rap God, Rap God
+All my people from the front to the back nod, back nod
+Now, who thinks their arms are long enough to slap box, slap box?
+They said I rap like a robot, so call me Rap-bot
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ rnam[K[K[Kema[K[Kname asyed_song.txt asyed_song.t xt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pcat asyed_song.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crename asyed_song.txt asyed_song.txxt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C asyed_song.tx[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccasyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csasyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccasyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_asyed_song.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+rename: not enough arguments
+
+Usage:
+ rename [options] expression replacement file...
+
+Options:
+ -v, --verbose    explain what is being done
+ -s, --symlink    act on symlink target
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see rename(1).
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ la
+bash: la: command not found
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ ls
+csc3320_asyed_song.txt
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ man echo
+[?1049h[?1h=ECHO(1)                        User Commands                       ECHO(1)[m
+[m
+[1mNAME[0m[m
+       echo - display a line of text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+       \t     horizontal tab[m
+[m
+       \v     vertical tab[m
+[m
+       \0NNN  byte with octal value NNN (1 to 3 digits)[m
+[m
+[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K^I^I[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K^J^J[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KESCESC[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[K^J^J[K[7m Manual page echo(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ echo ‘Welcome to UNIX[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C!
+Welcome to UNIX!
+]0;asyed23@gsuad.gsu.edu@snowball:~/csc3320[asyed23@gsuad.gsu.edu@snowball csc3320]$ exit
+exit
+
+Script done on Wed 04 Sep 2024 04:18:24 PM EDT

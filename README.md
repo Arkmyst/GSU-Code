@@ -7,11 +7,13 @@ This repository functions as a storage hub for the code I write during my comple
 <div align="center" style="inline-block"> 
 <br/>
   
-|    SEMESTER   |       COURSE       |
-|:-------------:|:------------------:|
-|  `Fall 2023`  | [CSC1301](CSC1301) |
-| `Summer 2023` | [CSC1302](CSC1302) |
-| `Spring 2024` | [CSC3210](CSC3210) |
+|    SEMESTER   |        COURSE        |
+|:-------------:|:--------------------:|
+|  `Fall 2023`  | [CSC 1301](CSC-1301) |
+| `Summer 2023` | [CSC 1302](CSC-1302) |
+| `Spring 2024` | [CSC 3210](CSC-3210) |
+|  `Fall 2024`  | [CSC 2720](CSC-2720) |
+|  `Fall 2024`  | [CSC 3320](CSC-3320) |
 
 </div>
 
@@ -21,9 +23,10 @@ This repository functions as a storage hub for the code I write during my comple
 ```py
 gsu-code
 ┗━ Course # Various GSU courses
+   ┣━ Exams
    ┣━ Homeworks
    ┣━ Lab Assignments
    ┣━ Projects
    ┃  ┗━ README.md # Explains the project
-   ┗━ README.md # About the class & personal goals
+   ┗━ README.md # About the class & personal notes
 ```

@@ -1,0 +1,11 @@
+Initialize the Arrays: Two arrays, trust_counter and trusted_counter, 
+        track how many people trust each person and how many people each person trusts, respectively.
+
+Count Trust Relationships: For each trust pair [a, b] in the input, 
+increment trust_counter[b] (indicating b is trusted) and trusted_counter[a] (indicating a trusts someone).
+
+Identify the Judge: Loop through each person from 1 to n. A person is the judge if:
+    They are trusted by n - 1 people (trust_counter[i] == n - 1).
+    They trust no one (trusted_counter[i] == 0).
+
+Return the Result: Return the judge’s label if found; otherwise, return -1 if no judge meets the criteria.
